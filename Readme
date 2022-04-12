@@ -1,0 +1,39 @@
+Como utilizar a API de conversão de csv
+
+
+POST - /json_converter/files
+
+{
+    "filePath":"C:/Users/João/Documents/DnD"
+}
+
+Retorna os arquivos .json existentes na pasta
+
+
+{
+    "filePath": "C:/Users/João/Documents/DnD",
+    "message": null,
+    "fileName": [
+        "teste2.json",
+        "teste.json"
+    ]
+}
+
+
+
+
+POST - /json_converter/conversions
+
+{
+    "fileName" : "teste.json",
+    "filePathOrigin" : "C:/Users/João/Documents/DnD",
+    "filePathDestination" : "C:/Users/João/Documents/DnD"
+}
+
+após inserido o nome do arquivo existente na lista, o caminho de origem dele e o caminho de destino do csv, o sistema realizará a conversão
+
+{
+    "message": "Arquivo convertido com sucesso!!",
+    "fileName": "teste.csv",
+    "filePathDestination": "C:/Users/João/Documents/DnD"
+}

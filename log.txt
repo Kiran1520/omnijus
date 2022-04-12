@@ -1,0 +1,172 @@
+2022-04-12 17:38:53.837  INFO 11220 --- [main] com.example.omnijus.OmnijusApplication   : Starting OmnijusApplication using Java 17.0.2 on DESKTOP-8O5N07U with PID 11220 (E:\Workspace\omnijus\target\classes started by JoÆo in E:\Workspace\omnijus)
+2022-04-12 17:38:53.841  INFO 11220 --- [main] com.example.omnijus.OmnijusApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-12 17:38:54.658  INFO 11220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-12 17:38:54.669  INFO 11220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-12 17:38:54.670  INFO 11220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-12 17:38:54.774  INFO 11220 --- [main] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring embedded WebApplicationContext
+2022-04-12 17:38:54.775  INFO 11220 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 885 ms
+2022-04-12 17:38:55.116  INFO 11220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/json_converter'
+2022-04-12 17:38:55.122  INFO 11220 --- [main] com.example.omnijus.OmnijusApplication   : Started OmnijusApplication in 1.75 seconds (JVM running for 2.164)
+2022-04-12 17:38:59.610  INFO 11220 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-12 17:38:59.610  INFO 11220 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-12 17:38:59.610  INFO 11220 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-12 17:38:59.701  INFO 11220 --- [http-nio-8080-exec-2] c.e.o.c.JsonConverterController          : Validando caminho inserido de origem de arquivo e destino: C:/Users/João/Documents/DnD --- C:/Users/João/Documents/DnD
+2022-04-12 17:38:59.705  INFO 11220 --- [http-nio-8080-exec-2] c.e.o.c.JsonConverterController          : Validando se o arquivo inserido existe: teste.json
+2022-04-12 17:38:59.706  INFO 11220 --- [http-nio-8080-exec-2] c.e.o.c.JsonConverterController          : Resgatando informações do json do arquivo
+2022-04-12 17:38:59.706  INFO 11220 --- [http-nio-8080-exec-2] c.e.o.c.JsonConverterController          : Validação de json
+2022-04-12 17:38:59.710  INFO 11220 --- [http-nio-8080-exec-2] c.e.o.c.JsonConverterController          : Convertendo json em csv
+2022-04-12 17:39:36.539  INFO 4264 --- [main] com.example.omnijus.OmnijusApplication   : Starting OmnijusApplication using Java 17.0.2 on DESKTOP-8O5N07U with PID 4264 (E:\Workspace\omnijus\target\classes started by JoÆo in E:\Workspace\omnijus)
+2022-04-12 17:39:36.542  INFO 4264 --- [main] com.example.omnijus.OmnijusApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-12 17:39:37.394  INFO 4264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-12 17:39:37.405  INFO 4264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-12 17:39:37.406  INFO 4264 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-12 17:39:37.513  INFO 4264 --- [main] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring embedded WebApplicationContext
+2022-04-12 17:39:37.513  INFO 4264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 921 ms
+2022-04-12 17:39:37.869  INFO 4264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/json_converter'
+2022-04-12 17:39:37.876  INFO 4264 --- [main] com.example.omnijus.OmnijusApplication   : Started OmnijusApplication in 1.806 seconds (JVM running for 2.237)
+2022-04-12 17:39:40.648  INFO 4264 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-12 17:39:40.649  INFO 4264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-12 17:39:40.649  INFO 4264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-12 17:39:40.746  INFO 4264 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando caminho inserido de origem de arquivo e destino: C:/Users/João/Documents/DnD --- C:/Users/João/Documents/DnD
+2022-04-12 17:39:40.748  INFO 4264 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando se o arquivo inserido existe: teste.json
+2022-04-12 17:39:40.748  INFO 4264 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Resgatando informações do json do arquivo
+2022-04-12 17:39:40.748  INFO 4264 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validação de json
+2022-04-12 17:39:40.752  INFO 4264 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Convertendo json em csv
+2022-04-12 17:40:03.207  INFO 6652 --- [main] com.example.omnijus.OmnijusApplication   : Starting OmnijusApplication using Java 17.0.2 on DESKTOP-8O5N07U with PID 6652 (E:\Workspace\omnijus\target\classes started by JoÆo in E:\Workspace\omnijus)
+2022-04-12 17:40:03.210  INFO 6652 --- [main] com.example.omnijus.OmnijusApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-12 17:40:04.068  INFO 6652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-12 17:40:04.079  INFO 6652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-12 17:40:04.079  INFO 6652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-12 17:40:04.205  INFO 6652 --- [main] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring embedded WebApplicationContext
+2022-04-12 17:40:04.205  INFO 6652 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 947 ms
+2022-04-12 17:40:04.544  INFO 6652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/json_converter'
+2022-04-12 17:40:04.552  INFO 6652 --- [main] com.example.omnijus.OmnijusApplication   : Started OmnijusApplication in 1.827 seconds (JVM running for 2.268)
+2022-04-12 17:40:06.371  INFO 6652 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-12 17:40:06.371  INFO 6652 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-12 17:40:06.372  INFO 6652 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-12 17:40:06.465  INFO 6652 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando caminho inserido de origem de arquivo e destino: C:/Users/João/Documents/DnD --- C:/Users/João/Documents/DnD
+2022-04-12 17:40:06.466  INFO 6652 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando se o arquivo inserido existe: teste.json
+2022-04-12 17:40:06.467  INFO 6652 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Resgatando informações do json do arquivo
+2022-04-12 17:40:06.467  INFO 6652 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validação de json
+2022-04-12 17:40:06.470  INFO 6652 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Convertendo json em csv
+2022-04-12 17:40:27.553  INFO 24328 --- [main] com.example.omnijus.OmnijusApplication   : Starting OmnijusApplication using Java 17.0.2 on DESKTOP-8O5N07U with PID 24328 (E:\Workspace\omnijus\target\classes started by JoÆo in E:\Workspace\omnijus)
+2022-04-12 17:40:27.556  INFO 24328 --- [main] com.example.omnijus.OmnijusApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-12 17:40:28.426  INFO 24328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-12 17:40:28.437  INFO 24328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-12 17:40:28.437  INFO 24328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-12 17:40:28.537  INFO 24328 --- [main] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring embedded WebApplicationContext
+2022-04-12 17:40:28.538  INFO 24328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 933 ms
+2022-04-12 17:40:28.878  INFO 24328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/json_converter'
+2022-04-12 17:40:28.886  INFO 24328 --- [main] com.example.omnijus.OmnijusApplication   : Started OmnijusApplication in 1.837 seconds (JVM running for 2.275)
+2022-04-12 17:40:30.470  INFO 24328 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-12 17:40:30.470  INFO 24328 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-12 17:40:30.473  INFO 24328 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-04-12 17:40:30.572  INFO 24328 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando caminho inserido de origem de arquivo e destino: C:/Users/João/Documents/DnD --- C:/Users/João/Documents/DnD
+2022-04-12 17:40:30.574  INFO 24328 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando se o arquivo inserido existe: teste.json
+2022-04-12 17:40:30.574  INFO 24328 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Resgatando informações do json do arquivo
+2022-04-12 17:40:30.574  INFO 24328 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validação de json
+2022-04-12 17:40:30.577  INFO 24328 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Convertendo json em csv
+2022-04-12 17:40:53.933  INFO 12100 --- [main] com.example.omnijus.OmnijusApplication   : Starting OmnijusApplication using Java 17.0.2 on DESKTOP-8O5N07U with PID 12100 (E:\Workspace\omnijus\target\classes started by JoÆo in E:\Workspace\omnijus)
+2022-04-12 17:40:53.935  INFO 12100 --- [main] com.example.omnijus.OmnijusApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-12 17:40:54.786  INFO 12100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-12 17:40:54.797  INFO 12100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-12 17:40:54.797  INFO 12100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-12 17:40:54.902  INFO 12100 --- [main] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring embedded WebApplicationContext
+2022-04-12 17:40:54.903  INFO 12100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 918 ms
+2022-04-12 17:40:55.248  INFO 12100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/json_converter'
+2022-04-12 17:40:55.255  INFO 12100 --- [main] com.example.omnijus.OmnijusApplication   : Started OmnijusApplication in 1.791 seconds (JVM running for 2.211)
+2022-04-12 17:40:56.875  INFO 12100 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-12 17:40:56.876  INFO 12100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-12 17:40:56.877  INFO 12100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-12 17:40:56.983  INFO 12100 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando caminho inserido de origem de arquivo e destino: C:/Users/João/Documents/DnD --- C:/Users/João/Documents/DnD
+2022-04-12 17:40:56.984  INFO 12100 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando se o arquivo inserido existe: teste.json
+2022-04-12 17:40:56.985  INFO 12100 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Resgatando informações do json do arquivo
+2022-04-12 17:40:56.985  INFO 12100 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validação de json
+2022-04-12 17:40:56.989  INFO 12100 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Convertendo json em csv
+2022-04-12 17:41:19.501  INFO 7480 --- [main] com.example.omnijus.OmnijusApplication   : Starting OmnijusApplication using Java 17.0.2 on DESKTOP-8O5N07U with PID 7480 (E:\Workspace\omnijus\target\classes started by JoÆo in E:\Workspace\omnijus)
+2022-04-12 17:41:19.504  INFO 7480 --- [main] com.example.omnijus.OmnijusApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-12 17:41:20.394  INFO 7480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-12 17:41:20.407  INFO 7480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-12 17:41:20.408  INFO 7480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-12 17:41:20.510  INFO 7480 --- [main] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring embedded WebApplicationContext
+2022-04-12 17:41:20.510  INFO 7480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 943 ms
+2022-04-12 17:41:20.876  INFO 7480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/json_converter'
+2022-04-12 17:41:20.885  INFO 7480 --- [main] com.example.omnijus.OmnijusApplication   : Started OmnijusApplication in 1.866 seconds (JVM running for 2.307)
+2022-04-12 17:41:44.079  INFO 7480 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-12 17:41:44.079  INFO 7480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-12 17:41:44.080  INFO 7480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-12 17:41:44.179  INFO 7480 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando caminho inserido de origem de arquivo e destino: C:/Users/João/Documents/DnD --- C:/Users/João/Documents/DnD
+2022-04-12 17:41:44.181  INFO 7480 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando se o arquivo inserido existe: teste.json
+2022-04-12 17:41:44.182  INFO 7480 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Resgatando informações do json do arquivo
+2022-04-12 17:41:44.183  INFO 7480 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validação de json
+2022-04-12 17:41:44.192  INFO 7480 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Convertendo json em csv
+2022-04-12 17:42:06.449  INFO 7504 --- [main] com.example.omnijus.OmnijusApplication   : Starting OmnijusApplication using Java 17.0.2 on DESKTOP-8O5N07U with PID 7504 (E:\Workspace\omnijus\target\classes started by JoÆo in E:\Workspace\omnijus)
+2022-04-12 17:42:06.453  INFO 7504 --- [main] com.example.omnijus.OmnijusApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-12 17:42:07.324  INFO 7504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-12 17:42:07.335  INFO 7504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-12 17:42:07.335  INFO 7504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-12 17:42:07.434  INFO 7504 --- [main] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring embedded WebApplicationContext
+2022-04-12 17:42:07.435  INFO 7504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 922 ms
+2022-04-12 17:42:07.778  INFO 7504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/json_converter'
+2022-04-12 17:42:07.786  INFO 7504 --- [main] com.example.omnijus.OmnijusApplication   : Started OmnijusApplication in 1.826 seconds (JVM running for 2.256)
+2022-04-12 17:42:09.658  INFO 7504 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-12 17:42:09.658  INFO 7504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-12 17:42:09.659  INFO 7504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-12 17:42:09.746  INFO 7504 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando caminho inserido de origem de arquivo e destino: C:/Users/João/Documents/DnD --- C:/Users/João/Documents/DnD
+2022-04-12 17:42:09.748  INFO 7504 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando se o arquivo inserido existe: teste.json
+2022-04-12 17:42:09.749  INFO 7504 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Resgatando informações do json do arquivo
+2022-04-12 17:42:09.749  INFO 7504 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validação de json
+2022-04-12 17:42:09.751  INFO 7504 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Convertendo json em csv
+2022-04-12 17:42:21.126  INFO 3384 --- [main] com.example.omnijus.OmnijusApplication   : Starting OmnijusApplication using Java 17.0.2 on DESKTOP-8O5N07U with PID 3384 (E:\Workspace\omnijus\target\classes started by JoÆo in E:\Workspace\omnijus)
+2022-04-12 17:42:21.129  INFO 3384 --- [main] com.example.omnijus.OmnijusApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-12 17:42:26.986  INFO 5824 --- [main] com.example.omnijus.OmnijusApplication   : Starting OmnijusApplication using Java 17.0.2 on DESKTOP-8O5N07U with PID 5824 (E:\Workspace\omnijus\target\classes started by JoÆo in E:\Workspace\omnijus)
+2022-04-12 17:42:26.989  INFO 5824 --- [main] com.example.omnijus.OmnijusApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-12 17:42:27.845  INFO 5824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-12 17:42:27.856  INFO 5824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-12 17:42:27.857  INFO 5824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-12 17:42:27.961  INFO 5824 --- [main] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring embedded WebApplicationContext
+2022-04-12 17:42:27.961  INFO 5824 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 927 ms
+2022-04-12 17:42:28.303  INFO 5824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/json_converter'
+2022-04-12 17:42:28.311  INFO 5824 --- [main] com.example.omnijus.OmnijusApplication   : Started OmnijusApplication in 1.817 seconds (JVM running for 2.241)
+2022-04-12 17:42:31.181  INFO 5824 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-12 17:42:31.182  INFO 5824 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-12 17:42:31.183  INFO 5824 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-12 17:42:31.351  INFO 5824 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando caminho inserido de origem de arquivo e destino: C:/Users/João/Documents/DnD --- C:/Users/João/Documents/DnD
+2022-04-12 17:42:31.355  INFO 5824 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando se o arquivo inserido existe: teste.json
+2022-04-12 17:42:31.356  INFO 5824 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Resgatando informações do json do arquivo
+2022-04-12 17:42:31.356  INFO 5824 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validação de json
+2022-04-12 17:42:31.367  INFO 5824 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Convertendo json em csv
+2022-04-12 17:44:20.404  INFO 16068 --- [main] com.example.omnijus.OmnijusApplication   : Starting OmnijusApplication using Java 17.0.2 on DESKTOP-8O5N07U with PID 16068 (E:\Workspace\omnijus\target\classes started by JoÆo in E:\Workspace\omnijus)
+2022-04-12 17:44:20.407  INFO 16068 --- [main] com.example.omnijus.OmnijusApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-12 17:44:21.322  INFO 16068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-12 17:44:21.338  INFO 16068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-12 17:44:21.339  INFO 16068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-12 17:44:21.447  INFO 16068 --- [main] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring embedded WebApplicationContext
+2022-04-12 17:44:21.447  INFO 16068 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 988 ms
+2022-04-12 17:44:21.824  INFO 16068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/json_converter'
+2022-04-12 17:44:21.832  INFO 16068 --- [main] com.example.omnijus.OmnijusApplication   : Started OmnijusApplication in 1.904 seconds (JVM running for 2.319)
+2022-04-12 17:44:23.854  INFO 16068 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-12 17:44:23.854  INFO 16068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-12 17:44:23.855  INFO 16068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-12 17:44:23.943  INFO 16068 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando caminho inserido de origem de arquivo e destino: C:/Users/João/Documents/DnD --- C:/Users/João/Documents/DnD
+2022-04-12 17:44:23.945  INFO 16068 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando se o arquivo inserido existe: teste.json
+2022-04-12 17:44:23.946  INFO 16068 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Resgatando informações do json do arquivo
+2022-04-12 17:44:23.946  INFO 16068 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validação de json
+2022-04-12 17:44:23.949  INFO 16068 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Convertendo json em csv
+2022-04-12 17:45:04.156  INFO 14448 --- [main] com.example.omnijus.OmnijusApplication   : Starting OmnijusApplication using Java 17.0.2 on DESKTOP-8O5N07U with PID 14448 (E:\Workspace\omnijus\target\classes started by JoÆo in E:\Workspace\omnijus)
+2022-04-12 17:45:04.159  INFO 14448 --- [main] com.example.omnijus.OmnijusApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-12 17:45:04.993  INFO 14448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-12 17:45:05.004  INFO 14448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-12 17:45:05.005  INFO 14448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-12 17:45:05.114  INFO 14448 --- [main] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring embedded WebApplicationContext
+2022-04-12 17:45:05.115  INFO 14448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 896 ms
+2022-04-12 17:45:05.448  INFO 14448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/json_converter'
+2022-04-12 17:45:05.455  INFO 14448 --- [main] com.example.omnijus.OmnijusApplication   : Started OmnijusApplication in 1.775 seconds (JVM running for 2.21)
+2022-04-12 17:45:08.177  INFO 14448 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/json_converter]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-12 17:45:08.177  INFO 14448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-12 17:45:08.178  INFO 14448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-12 17:45:08.280  INFO 14448 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando caminho inserido de origem de arquivo e destino: C:/Users/João/Documents/DnD --- C:/Users/João/Documents/DnD
+2022-04-12 17:45:08.282  INFO 14448 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validando se o arquivo inserido existe: teste.json
+2022-04-12 17:45:08.282  INFO 14448 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Resgatando informações do json do arquivo
+2022-04-12 17:45:08.282  INFO 14448 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Validação de json
+2022-04-12 17:45:08.286  INFO 14448 --- [http-nio-8080-exec-1] c.e.o.c.JsonConverterController          : Convertendo json em csv

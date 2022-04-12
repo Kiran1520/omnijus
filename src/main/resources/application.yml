@@ -1,0 +1,22 @@
+spring:
+  main:
+    banner-mode: 'console'
+  http:
+    encoding:
+      charset: "@project.build.sourceEncoding@"
+  application:
+    name: "@project.name@"
+    version: "@project.version@"
+    description: "@project.description@"
+
+info:
+  app:
+    groupId: "@project.groupId@"
+    artifactId: "@project.artifactId@"
+    version: "@project.version@"
+    java.version: "@java.version@"
+
+server:
+  port: 8080
+  servlet:
+    context-path: /json_converter
