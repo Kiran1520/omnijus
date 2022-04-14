@@ -35,6 +35,7 @@ public class JsonConverterController {
 		JsonFilesListResponseDTO response = new JsonFilesListResponseDTO();
 		//validando se caminho inserido é válido
 		logger.info("Validando caminho inserido na lista de arquivos: " + request.getFilePath());
+		request.setFilePath(request.getFilePath().replace("\\", "/"));
 		if(!jsonConverterUtils.isPathValid(request.getFilePath())) {
 			response.setMessage("Caminho inválido ou não encontrado");
 			return new ResponseEntity<JsonFilesListResponseDTO>(response, HttpStatus.NOT_FOUND);
@@ -49,7 +50,7 @@ public class JsonConverterController {
 			}
 		}
 		response.setFileName(fileNameList);
-		response.setFilePath(request.getFilePath().replace("\\", "/"));
+		response.setFilePath(request.getFilePath());
 		return ResponseEntity.ok().body(response);
 	}
 
@@ -63,6 +64,8 @@ public class JsonConverterController {
 			response.setMessage("Caminho inválido ou não encontrado");
 			return new ResponseEntity<JsonConverterResponseDTO>(response, HttpStatus.NOT_FOUND);
 		}
+		request.setFilePathDestination(request.getFilePathDestination().replace("\\", "/"));
+		request.setFilePathOrigin(request.getFilePathOrigin().replace("\\", "/"));
 		Set<String> nameList = jsonConverterUtils.filesList(request.getFilePathOrigin());
 		Gson gson = new Gson();
 		boolean fileFound = false;
@@ -83,7 +86,7 @@ public class JsonConverterController {
 
 		try {
 			
-			String jsonString = new String(Files.readAllBytes(Paths.get(request.getFilePathOrigin() + "\\" + request.getFileName())));
+			String jsonString = new String(Files.readAllBytes(Paths.get(request.getFilePathOrigin() + "/" + request.getFileName())));
 			logger.info("Resgatando informações do json do arquivo");
 			jsonString = jsonString.replace("\n", "");
 			jsonString = jsonString.replace("\r", "");
